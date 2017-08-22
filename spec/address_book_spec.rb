@@ -100,5 +100,6 @@ RSpec.describe AddressBook do
       entry_three = book.entries[2]
       check_entry(entry_three, "Matt", "555-555-2345", "matt@email.com")
     end
+    
   end
 end
